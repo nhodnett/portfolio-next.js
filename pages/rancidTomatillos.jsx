@@ -1,17 +1,17 @@
 import React from 'react'
 import Image from 'next/image'
-import premierLeagueImg from '../public/assets/projects/premierLeagueImg.png'
+import rancidTomatillosImg from '../public/assets/projects/premierLeagueImg.png'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 
-const premierLeague = () => {
+const rancidTomatillos = () => {
     return (
         <div className='w-full'>
             <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
                 <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
-                <Image className='absolute z-1' src={premierLeagueImg} alt='/' fill style={{objectFit:"contain"}} />
+                <Image className='absolute z-1' src={rancidTomatillosImg} alt='/' fill style={{objectFit:"contain"}} />
                 <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-[#ecf0f3] z-10 p-2'>
-                    <h2 className='py-2'>Premier League</h2>
+                    <h2 className='py-2'>Rancid Tomatillos</h2>
                     <h3>React JS / React Hooks / Cypress</h3>
                 </div>
             </div>
@@ -20,28 +20,29 @@ const premierLeague = () => {
                         <p>Project</p>
                         <h2>Overview</h2>
                         <p className='mt-4'>
-                            The purpose of the App is to give a person new to the English Premier League 
-                            the opportunity to research all 20 teams to see which one, (or ones) they like the look of.
-                            The user can scan the first page of all 20 Premier league teams and simply click on 
-                            any one of the club badges to get more detailed information about that team, including the year the team was founded,
-                            their location, detailed team history and official social media links.
+                            Rancid Tomatillos is an application built using the React.js framework. 
+                            It takes inspiration from popular review-aggregation website Rotten Tomatoes 
+                            as well as many different streaming services including but not limited to Netflix and HBO Max. 
+                            The goal of this application is to allow users to look at information about 40 different 
+                            films that they might be interested in watching.
                         </p>
                         <p className='mt-4'>
-                            This was a fun project, the API was very detailed and allowed me to tailor the information 
-                            I wanted to present quite easily. However, the API didn't have fully funtional error handling, meaning I could not test for a 400 error.
-                            This led to me customizing a 'checkResponse' Function to make sure error handling was functional.
+                            Rancid Tomatillos was my first React Application. It was exciting it was to see how quickly a project came together using the React Framework. 
+                            There was a steep learning curve while familiarizing myself with JSX syntax and React Router, 
+                            however I developed confidence as I progressed. I initially utilizied class components to handle state and passed 
+                            data using props. Later as I iterated through the project, I re-factored to use hooks and functional components.
                         </p>                        
                         <Link 
-                            href='https://premier-league-zeta.vercel.app'
-                            aria-label='Deployed site for Premier League'
+                            href='https://rancid-tomatillos-1.vercel.app'
+                            aria-label='Deployed site for Rancid Tomatillos'
                             target='_blank'
                             rel='noreferrer'    
                         >
                             <button className='px-8 py-2 mt-8 mr-8 cursor-pointer hover:scale-105 ease-in duration-300'>Demo</button>
                         </Link>
                         <Link
-                            href='https://github.com/nhodnett/premier-league'
-                            aria-label='Github Repository for Premier League'
+                            href='https://github.com/nhodnett/rancid-tomatillos-1'
+                            aria-label='Github Repository for Rancid Tomatillos'
                             target='_blank'
                             rel='noreferrer'
                         >
@@ -67,7 +68,7 @@ const premierLeague = () => {
                                 <p className='text-gray-600 py-2 flex items-center'>
                                     <RiRadioButtonFill className='pr-1'/>Vercel</p>
                                 <p className='text-gray-600 py-2 flex items-center'>
-                                    <RiRadioButtonFill className='pr-1'/>TheSportsDB API</p>
+                                    <RiRadioButtonFill className='pr-1'/>Fetch API</p>
                             </div>
                         </div>
                     </div>
@@ -79,4 +80,4 @@ const premierLeague = () => {
     )
 }
 
-export default premierLeague
+export default rancidTomatillos
