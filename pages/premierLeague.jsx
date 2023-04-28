@@ -21,8 +21,22 @@ const premierLeague = () => {
                         <h2>Overview</h2>
                         <p>The purpose of the App is to give a person new to the English Premier League 
                         the opportunity to research all 20 teams to see which one, (or ones) they like the look of.</p>                        
-                        <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-                        <button className='px-8 py-2 mt-4'>Code</button>
+                        <Link 
+                            href='https://premier-league-zeta.vercel.app'
+                            aria-label='Deployed site for Premier League'
+                            target='_blank'
+                            rel='noreferrer'    
+                        >
+                            <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
+                        </Link>
+                        <Link
+                            href='https://github.com/nhodnett/premier-league'
+                            aria-label='Github Repository for Premier League'
+                            target='_blank'
+                            rel='noreferrer'
+                        >
+                            <button className='px-8 py-2 mt-4'>Code</button>
+                        </Link>
                     </div>
                     <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
                         <div className='p-2'>
