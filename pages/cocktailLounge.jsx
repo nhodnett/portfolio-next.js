@@ -17,7 +17,7 @@ const cocktailLounge = () => {
             </div>
                 <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8'>
                     <div className='col-span-4'>
-                        <p>Project</p>
+                        <p>Group Project</p>
                         <h2>Overview</h2>
                         <p className='mt-4'>
                             Imagine, you're out with friends at the newest bar in town and you are waiting in line for a drink. 
@@ -25,7 +25,9 @@ const cocktailLounge = () => {
                             "Shake it Up" to see random cocktails, or browse our favorites below so you're never again stuck wondering, "What should I order?"
                         </p>
                         <p className='mt-4'>
-                            Placeholder...
+                            For this project we chose Typescript as a Stretch Tech Goal. It was fascinating to see how the implementation of Typescript
+                            really tightened up out code. Having the compliner alert us if there was a type related mistake was very helpful, but also
+                            it gave our code more structure, which made it more readable and sped up debgging and refactoring.
                         </p>                        
                         <Link 
                             href='https://cocktail-lounge-eight.vercel.app'
