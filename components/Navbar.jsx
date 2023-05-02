@@ -43,7 +43,7 @@ return (
     <div style={{backgroundColor: `${navBG}`}} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
             <Link href='/'>
-                <h1 className='text-[#5651e5]'> N H </h1>
+                <h1 className='text-[#077187]'> N H </h1>
             </Link>
             <div>
                 <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
@@ -103,7 +103,7 @@ return (
                         </Link>
                     </ul>
                     <div className='pt-40'>
-                        <p className='uppercase tracking-widest text-[#5651e5]'>Let's Connect</p>
+                        <p className='uppercase tracking-widest text-[#077187]'>Let's Connect</p>
                         <div div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                 <FaLinkedinIn />
