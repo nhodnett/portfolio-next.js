@@ -1,6 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
 import premierLeagueImg from '../public/assets/projects/premierLeagueImg.png'
 import rancidTomatillosImg from '../public/assets/projects/rancidTomatillosImg.png'
 import cocktailLoungeImg from '../public/assets/projects/cocktailLoungeImg.png'
