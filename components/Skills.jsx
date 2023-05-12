@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import ReactImg from '../public/assets/skills/react.png'
+import ReactImg from '../public/assets/projects/react.png'
 import GithubImg from '../public/assets/skills/github1.png'
 import JavascriptImg from '../public/assets/skills/javascript.png'
 import TypescriptImg from '../public/assets/skills/typescript.png'
