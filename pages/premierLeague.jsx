@@ -28,7 +28,7 @@ const premierLeague = () => {
                         </p>
                         <p className='mt-4'>
                             This was a fun project, the API was very detailed and allowed me to tailor the information 
-                            I wanted to present quite easily. However, the API didn't have fully funtional error handling, meaning I could not test for a 400 error.
+                            I wanted to present quite easily. However, the API didn't have fully functional error handling, meaning I could not test for a 400 error.
                             This led to me customizing a 'checkResponse' Function to make sure error handling was functional.
                         </p>                        
                         <Link 

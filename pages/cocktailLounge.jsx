@@ -26,8 +26,8 @@ const cocktailLounge = () => {
                         </p>
                         <p className='mt-4'>
                             For this project we chose Typescript as a Stretch Tech Goal. It was fascinating to see how the implementation of Typescript
-                            really tightened up out code. Having the compliner alert us if there was a type related mistake was very helpful, but also
-                            it gave our code more structure, which made it more readable and sped up debgging and refactoring.
+                            really tightened up out code. Having the compiler alert us if there was a type related mistake was very helpful, but also
+                            it gave our code more structure, which made it more readable and sped up debugging and refactoring.
                         </p>                        
                         <Link 
                             href='https://cocktail-lounge-eight.vercel.app'
